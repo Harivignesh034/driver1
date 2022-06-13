@@ -269,7 +269,7 @@ class DriverDetails extends Thread{
                                         System.out.println(cmd1);
 
                                 }else {
-                                    if(String.valueOf(files.get("FILE_ID")).equals("94")){
+                                    /*if(String.valueOf(files.get("FILE_ID")).equals("94")){
                                         System.out.println("94-------------------");
                                         String str1 = "C:\\Newfiles\\" + files.get("FILE_NAME");
                                         String com = String.valueOf(files.get("SILENT_SWITCH"));
@@ -277,7 +277,7 @@ class DriverDetails extends Thread{
                                         cmd1 = cmd.replace("\"des\"", path2);
                                         des.put(String.valueOf(files.get("FILE_ID")),path2);
                                         System.out.println(cmd1);
-                                    }else {
+                                    }else {*/
                                         String str1 = "\"C:\\Newfiles\\" + files.get("FILE_NAME") + "\"";
                                         System.out.println("lenovao-----------------");
                                         String com = "\"" + files.get("SILENT_SWITCH");
@@ -287,7 +287,7 @@ class DriverDetails extends Thread{
                                         System.out.println(cmd1);
                                     }
 
-                                }
+                                //}
                             } else {
                                 String str1 = "C:\\Newfiles\\" + files.get("FILE_NAME") ;
                                 String com = "\"" + files.get("SILENT_SWITCH")+"\"";
